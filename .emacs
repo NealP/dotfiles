@@ -1,6 +1,10 @@
+(global-set-key (kbd "C-c g") 'magit-status )
+
 (require 'package)
 (package-initialize)
  (add-to-list 'package-archives '("melpa" . "http://melpa.milkbox.net/packages/") t)
+
+
 (require 'project-explorer)
 (setq-default pe/width 28)  
 
@@ -27,3 +31,4 @@
 (global-linum-mode t)
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (load-theme 'ujelly t)
+(desktop-save-mode 1)

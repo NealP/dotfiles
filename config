@@ -21,8 +21,10 @@
 # Note that the commented example options usually do _not_ set the default
 # values. Calling mpv with --list-options is a nice way to see the default
 # values for most options.
-
+screenshot-template=~/Desktop/mpv_screenshot_%n
+screenshot-format=png
 ##################
+
 # video settings #
 ##################
 
